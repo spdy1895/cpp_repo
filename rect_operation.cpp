@@ -49,7 +49,7 @@ int main(int argc, char **argv)
             break;
         }
         std::cout << "\n press any key to continue...\n";
-        ch1 = getchar();
+        std::cin >> ch;
 
     } while (ch >= '1' && ch <= '3');
 
